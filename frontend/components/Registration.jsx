@@ -188,7 +188,7 @@ const Registration = () => {
     id="miraPlatformId"
     name="miraPlatformId"
     required
-    className="m-2 p-2 bg-neutral-700 border border-neutral-600 text-white focus:outline-none focus:border-green-500 transition-colors"
+    className= "cursor-pointer m-2 p-2 sm:p-0 bg-neutral-700 border border-neutral-600 text-white focus:outline-none focus:border-green-500 transition-colors"
   />
 </div>
               </div>
