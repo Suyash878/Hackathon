@@ -155,8 +155,10 @@ const Registration = () => {
                   className="w-full px-4 py-2 rounded-lg bg-neutral-700 border border-neutral-600 text-white focus:outline-none focus:border-green-500 transition-colors"
                 >
                   <option value="">Select team size</option>
-                  <option value="1">Individual</option>
+                 
                   <option value="2">2 Members</option>
+                  <option value="3">3 Members</option>
+                  <option value="4">4 Members</option>
                 </select>
               </div>
               <div>
@@ -179,6 +181,43 @@ const Registration = () => {
                     </label>
                   ))}
                 </div>
+                <div className="pt-2 bg-neutral-800">
+                <label 
+    className="block text-gray-300 mb-2 text-sm" 
+    htmlFor="miraPlatformId"
+  >
+    MIRA Registration ID
+  </label>
+  <input
+    type="file"
+    id="miraPlatformId"
+    name="miraPlatformId"
+    required
+    className="
+                  bg-neutral-700
+      w-full 
+      block 
+      text-sm 
+      text-gray-300 
+      file:mr-4 
+      file:py-2 
+      file:px-4 
+      file:rounded-md 
+      file:border-0 
+      file:text-sm 
+      file:font-semibold 
+      file:bg-neutral-700 
+      file:text-white 
+      hover:file:bg-neutral-600 
+      cursor-pointer 
+      border 
+      border-neutral-600 
+      focus:outline-none 
+      focus:border-green-500 
+      transition-colors
+    "
+  />
+</div>
               </div>
               <div className="flex items-center">
                 <input 
@@ -216,7 +255,7 @@ const Registration = () => {
             },
             {
               title: "Team Formation",
-              content: "1-2 Members",
+              content: "2 - 4 Members",
               icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
             },
             {

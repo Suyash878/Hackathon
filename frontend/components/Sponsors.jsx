@@ -13,19 +13,10 @@ const Sponsors = () => {
         </div>
 
         <div className="mb-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto animate__animated animate__fadeInUp">
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center justify-center border border-gray-200">
+          <div className="grid grid-cols-1  gap-8 max-w-4xl mx-auto animate__animated animate__fadeInUp">
+            <div className="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center justify-center border border-gray-200">
               <div className="text-center">
-               <Image className="w-50" src={sponsors} alt="logo"></Image>
-              </div>
-            </div>
-
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center justify-center border border-gray-200">
-              <div className="text-center font-bold text-2xl">
-                <span className="text-blue-500">G</span>
-                <span className="text-red-500">D</span>
-                <span className="text-yellow-500">G</span>
-                <span className="text-gray-500">Community</span>
+               <Image className="w-30 h-32" src={sponsors} alt="logo"></Image>
               </div>
             </div>
           </div>
