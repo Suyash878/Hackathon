@@ -8,6 +8,8 @@ import Sponsors from "./components/Sponsors"
 import Registration from "./components/Registration"
 import FAQ from "./components/FAQ"
 import Footer from "./components/Footer"
+import HackathonLanding from "./components/prizes"
+
 
 const App = () => {
   return (
@@ -18,7 +20,8 @@ const App = () => {
         <About />
         <Tracks />
         <Schedule />
-        <Sponsors />
+        <HackathonLanding></HackathonLanding>
+        <Sponsors/>
         <Registration />
         <FAQ />
       </main>

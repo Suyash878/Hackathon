@@ -179,6 +179,18 @@ const Registration = () => {
                     </label>
                   ))}
                 </div>
+                <div className="pt-2 bg-neutral-800">
+  <label className="block text-gray-300 mb-2" htmlFor="miraPlatformId">
+    MIRA Registration ID
+  </label>
+  <input
+    type="file"
+    id="miraPlatformId"
+    name="miraPlatformId"
+    required
+    className="m-2 p-2 bg-neutral-700 border border-neutral-600 text-white focus:outline-none focus:border-green-500 transition-colors"
+  />
+</div>
               </div>
               <div className="flex items-center">
                 <input 
