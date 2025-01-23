@@ -27,7 +27,7 @@ const Registration = () => {
     e.preventDefault();
     try {
       console.log('Submitting form data:', formData);
-      const response = await axios.post('http://localhost:3001/api/register', formData, {
+      const response = await axios.post('https://hackathon-zd7b.onrender.com/api/register', formData, {
         headers: {
           'Content-Type': 'application/json'
         }
