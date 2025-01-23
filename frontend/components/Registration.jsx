@@ -180,7 +180,10 @@ const Registration = () => {
                   ))}
                 </div>
                 <div className="pt-2 bg-neutral-800">
-  <label className="block text-gray-300 mb-2" htmlFor="miraPlatformId">
+                <label 
+    className="block text-gray-300 mb-2 text-sm" 
+    htmlFor="miraPlatformId"
+  >
     MIRA Registration ID
   </label>
   <input
@@ -188,7 +191,29 @@ const Registration = () => {
     id="miraPlatformId"
     name="miraPlatformId"
     required
-    className= "cursor-pointer m-2 p-2 sm:p-0 bg-neutral-700 border border-neutral-600 text-white focus:outline-none focus:border-green-500 transition-colors"
+    className="
+                  bg-neutral-700
+      w-full 
+      block 
+      text-sm 
+      text-gray-300 
+      file:mr-4 
+      file:py-2 
+      file:px-4 
+      file:rounded-md 
+      file:border-0 
+      file:text-sm 
+      file:font-semibold 
+      file:bg-neutral-700 
+      file:text-white 
+      hover:file:bg-neutral-600 
+      cursor-pointer 
+      border 
+      border-neutral-600 
+      focus:outline-none 
+      focus:border-green-500 
+      transition-colors
+    "
   />
 </div>
               </div>
