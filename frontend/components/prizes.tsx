@@ -94,7 +94,7 @@ const HackathonLanding: React.FC = () => {
             <h2 className="text-2xl text-blue-500 mb-4">Team Formation</h2>
             <ul className="space-y-2">
               <li className="flex items-center">
-                <span className="text-blue-500 mr-2">✔</span>Team size: 1-2 members
+                <span className="text-blue-500 mr-2">✔</span>Team size: 2-4 members
               </li>
               <li className="flex items-center">
                 <span className="text-blue-500 mr-2">✔</span>Cross-college teams allowed

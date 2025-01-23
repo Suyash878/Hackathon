@@ -8,7 +8,7 @@ const HackathonRules: React.FC = () => {
         <div className="bg-gray-800 p-6 rounded-lg">
           <h3 className="text-lg font-semibold text-white mb-2">Team Formation</h3>
           <ul className="text-gray-400 space-y-2">
-            <li>✓ Team size: 1-2 members</li>
+            <li>✓ Team size: 2-4 members</li>
             <li>✓ Cross-college teams are allowed</li>
             <li>✓ All team members must register on the MIRA platform</li>
           </ul>
